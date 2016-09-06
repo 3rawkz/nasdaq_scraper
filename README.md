@@ -15,7 +15,7 @@ To get the stock data, follow these steps:
 -------------------------------------------------------------------------------------------------------
   1) Open the command prompt
 
-  2) Go to the project’s top level nasdaq directory and run this command: scrapy crawl stock -a symbol=goog -o the_name_of_the_file.csv
+  2) Go to the project’s top level "nasdaq" directory and run this command: scrapy crawl stock -a symbol=goog -o the_name_of_the_file.csv
 
 In this case, you will get the result of google stock in csv file. The stock symbol can be changed to any stock you want 
 e.g. scrapy crawl stock -a symbol=aapl -o the_name_of_the_file.csv for scraping apple stock data.
@@ -24,7 +24,7 @@ To get the news data, follow these steps:
 -------------------------------------------------------------------------------------------------------
 1) Open the command prompt
 
-2) Go to the project’s top level nasdaq directory and run this command: scrapy crawl news the_name_of_the_file.csv
+2) Go to the project’s top level "nasdaq" directory and run this command: scrapy crawl news the_name_of_the_file.csv
 
 Now, you get the news of stocks and mutual funds from nasdaq website sorted by date.
 
